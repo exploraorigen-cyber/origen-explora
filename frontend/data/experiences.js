@@ -5,7 +5,7 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "EMPIEZA A VIVIR AFUERA",
     "title": "Travesía de las Cascadas",
     "message": "NO NECESITAS SER MONTAÑISTA. SÓLO NECESITAS QUERER SALIR.",
-    "profile": "BÁSICO / INICIACIÓN",
+    "profile": "BÁSICO",
     "location": "Sierra de San Miguelito, San Luis Potosí",
     "duration": "1 día",
     "difficulty": "Básico",
@@ -13,32 +13,34 @@ window.ORIGEN_EXPERIENCES = {
     "details": [
       "4 km",
       "4 h de actividad",
+      "~6 h totales",
       "Bosque de encinos",
-      "Formaciones rocosas",
+      "Formaciones naturales",
       "Vista a Presa del Potosino",
-      "Pozas y cascadas en temporada"
+      "Cascadas, escurrimientos y pozas en temporada"
     ],
-    "lived": "Una caminata de 4 km por bosque de encinos, formaciones y vistas hacia la Presa del Potosino. En temporada de lluvias pueden aparecer cascadas, corrientes y pozas; no son una condición garantizada.",
+    "lived": "Una caminata de aproximadamente 4 km y 4 horas por la Sierra de San Miguelito, entre bosque de encinos, formaciones naturales y vistas hacia la Presa del Potosino. En temporada de lluvias pueden aparecer cascadas, escurrimientos y pozas; el agua es estacional y no se garantiza.",
     "learned": [
-      "Caminar y desenvolverte en terreno natural sin que la jornada dependa de un reto técnico.",
-      "Leer el entorno y disfrutar el recorrido sin convertirlo en una carrera.",
-      "Entender cómo cambia el paisaje según la temporada."
+      "Preparar una mochila pequeña y elegir el calzado adecuado para una caminata sencilla.",
+      "Llevar agua y desenvolverte por terreno natural.",
+      "Cuidar el entorno mientras comienzas a caminar fuera de la ciudad."
     ],
-    "challenge": "Es una experiencia de iniciación. El reto está en salir, caminar y pasar unas horas fuera de la rutina.",
+    "challenge": "No requiere experiencia técnica ni haber practicado hiking previamente. La experiencia está pensada para comenzar con una jornada corta y accesible.",
     "itinerary": [
-      "Traslado hacia la Sierra de San Miguelito",
-      "Recorrido de aproximadamente 4 km",
-      "Bosque de encinos, formaciones y vistas",
-      "Cascadas, corrientes o pozas si las condiciones de temporada lo permiten",
+      "Traslado desde y hacia San Luis Potosí",
+      "Recorrido de aproximadamente 4 km durante 4 horas",
+      "Bosque de encinos, formaciones y vistas hacia la Presa del Potosino",
+      "En temporada de lluvias: cascadas, escurrimientos y pozas, si las condiciones lo permiten",
       "Regreso"
     ],
-    "safety": "La ficha la plantea como una experiencia básica y accesible para principiantes. Las condiciones de agua dependen de la temporada.",
+    "safety": "Nivel físico básico. No requiere experiencia técnica ni experiencia previa haciendo hiking. Las condiciones de agua dependen de la temporada.",
     "closing": "POR ALGÚN LUGAR HAY QUE EMPEZAR.",
     "image": "../assets/images/experiencias/travesia-cascadas/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "san-cayetano": {
     "family": "DESCUBRE",
@@ -80,7 +82,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "cerro-comadres-rancho": {
     "family": "DESCUBRE",
@@ -120,7 +123,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "cerro-comadres-cabana": {
     "family": "DESCUBRE",
@@ -161,7 +165,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "conca-rio-vino": {
     "family": "DESCUBRE",
@@ -183,19 +188,17 @@ window.ORIGEN_EXPERIENCES = {
       "Nacimiento",
       "Árbol milenario"
     ],
-    "lived": "Una salida de dos días para conocer Concá y combinar río, descanso, historia y convivencia. El formato permite una jornada activa o una experiencia más relajada de Río & Vino.",
+    "lived": "Una salida de dos días hacia Concá para combinar río, nado, descanso y vino, con una noche de hotel y una segunda jornada dedicada a conocer la Misión, el Nacimiento y el árbol milenario.",
     "learned": [
-      "Conocer un destino de la Sierra Gorda desde distintos ritmos.",
-      "Combinar naturaleza, agua, historia y descanso en un mismo viaje.",
-      "Dejar que el viaje sea también parte de la experiencia."
+      "Combinar naturaleza, agua, descanso e historia dentro de un mismo viaje.",
+      "Vivir la Sierra Gorda desde un ritmo de descanso y convivencia."
     ],
-    "challenge": "No está planteada como una jornada de alta exigencia física. El valor está en desplazarte, conocer y disfrutar.",
+    "challenge": "No es una experiencia de alta demanda física. Su propuesta es vivir el destino desde el agua, el descanso, la convivencia y el recorrido cultural.",
     "itinerary": [
       "Traslado hacia la Sierra Gorda",
-      "Río & Vino y descanso",
+      "Río, nado y experiencia de Río & Vino",
       "Noche en hotel",
-      "Visita a la Misión de Concá",
-      "Nacimiento y árbol milenario",
+      "Visita a la Misión de Concá, Nacimiento y árbol milenario",
       "Regreso"
     ],
     "safety": "La ficha indica que no hay alta demanda física en la jornada de Concá. Los servicios concretos de cada salida se publicarán con la fecha.",
@@ -204,7 +207,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "escalada-peaje": {
     "family": "ESCALA",
@@ -212,17 +216,18 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "DESCUBRE LO QUE PUEDES HACER SOBRE LA ROCA",
     "title": "Escalada Peaje / Potosino",
     "message": "NO VAS A VER CÓMO ESCALAN LOS DEMÁS. VAS A ESCALAR TÚ.",
-    "profile": "BÁSICO TÉCNICO",
+    "profile": "ADAPTABLE",
     "location": "Sectores El Peaje / El Potosino, San Luis Potosí",
     "duration": "1 día",
     "difficulty": "Variable según ruta",
     "activity": "Escalada deportiva",
     "details": [
       "~30 min desde SLP",
-      "+20 rutas por sector",
+      "Más de 20 rutas por sector",
+      "Roca natural",
       "Inducción y seguridad",
-      "Selección de rutas según nivel",
-      "Máximo 4 participantes"
+      "Rutas según experiencia y nivel",
+      "Máximo 4 personas"
     ],
     "lived": "Una experiencia de escalada deportiva en roca natural. Primero se explica el sistema y la seguridad; después se eligen rutas de acuerdo con el nivel de cada participante.",
     "learned": [
@@ -231,7 +236,7 @@ window.ORIGEN_EXPERIENCES = {
       "Lectura de ruta y elección de intentos de acuerdo con tu nivel.",
       "Entender que escalar no significa solamente tener fuerza."
     ],
-    "challenge": "La dificultad cambia según la ruta elegida. La experiencia está diseñada para recibir desde personas que nunca han escalado hasta participantes con experiencia.",
+    "challenge": "La dificultad cambia según la ruta y el nivel real de cada participante. Puede vivirse desde una primera aproximación hasta una jornada para escaladores con mayor experiencia.",
     "itinerary": [
       "Traslado al sector seleccionado",
       "Inducción y explicación de seguridad",
@@ -246,7 +251,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "boulder-sunset": {
     "family": "ESCALA",
@@ -254,7 +260,7 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "DESCUBRE LO QUE PUEDES HACER SOBRE LA ROCA",
     "title": "Boulder & Sunset",
     "message": "PRUEBA LA ROCA. DESPUÉS QUÉDATE A VER CÓMO TERMINA EL DÍA.",
-    "profile": "BÁSICO TÉCNICO",
+    "profile": "BÁSICO / INICIACIÓN",
     "location": "San Luis Potosí",
     "duration": "1 tarde",
     "difficulty": "Básico",
@@ -290,7 +296,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "gruta-candelas": {
     "family": "ESCALA",
@@ -305,9 +312,9 @@ window.ORIGEN_EXPERIENCES = {
     "activity": "Gruta + primera escalada",
     "details": [
       "4 rutas de iniciación",
-      "Recorrido interior de la gruta",
+      "Pasillo interior de ~50 m",
+      "Segunda cámara",
       "No requiere experiencia técnica previa",
-      "~6–7 h de jornada",
       "Aventurarte Café"
     ],
     "lived": "Salir. Explorar una gruta. Ponerte un arnés. Tocar la roca. Intentar tu primera ruta. Equivocarte. Volver a intentar.",
@@ -317,7 +324,7 @@ window.ORIGEN_EXPERIENCES = {
       "Probar cuatro rutas seleccionadas para iniciación.",
       "Entender que escalar también implica movimiento, técnica e intento."
     ],
-    "challenge": "La experiencia está pensada para quien nunca ha escalado. El reto está en probar algo nuevo, no en demostrar cuánto puedes hacer.",
+    "challenge": "No necesitas saber escalar ni tener experiencia técnica previa. El reto es probar una primera experiencia de escalada en roca natural, acompañada y dentro de un entorno de gruta.",
     "itinerary": [
       "Salida y traslado hacia Guadalcázar",
       "Recorrido interior de la gruta",
@@ -331,7 +338,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "canon-chivo-guacamayas": {
     "family": "EXPLORA",
@@ -346,6 +354,8 @@ window.ORIGEN_EXPERIENCES = {
     "activity": "Cañón + cascadas + pozas",
     "details": [
       "~2 h 30 min por tramo desde SLP",
+      "Acceso por terracería",
+      "Se recomienda camioneta 4x2",
       "~4 h dentro del cañón",
       "~9 h totales",
       "Cascadas",
@@ -366,13 +376,14 @@ window.ORIGEN_EXPERIENCES = {
       "Observación del entorno y fauna",
       "Regreso"
     ],
-    "safety": "La ficha indica que las guacamayas no están garantizadas. Las condiciones del agua y del terreno pueden cambiar según la temporada.",
+    "safety": "El acceso es por terracería y la ficha recomienda camioneta 4x2. El avistamiento de guacamayas es posible, pero nunca se garantiza por tratarse de fauna silvestre.",
     "closing": "EL LUGAR NO ESTÁ JUNTO AL COCHE.",
     "image": "../assets/images/experiencias/canon-chivo-guacamayas/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "canon-chivo-rappel": {
     "family": "EXPLORA",
@@ -380,17 +391,19 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "CAMINA PARA LLEGAR DONDE NORMALMENTE NO LLEGARÍAS",
     "title": "Cañón del Chivo — Rappel",
     "message": "LLEGAR ES PARTE DEL RETO. BAJAR ES OTRA HISTORIA.",
-    "profile": "MEDIO / MEDIO-ALTO",
+    "profile": "MEDIO",
     "location": "San Nicolás Tolentino, San Luis Potosí",
     "duration": "1 día",
-    "difficulty": "Medio / medio-alto",
+    "difficulty": "Medio",
     "activity": "Cañón + rappel",
     "details": [
+      "~2 h 30 min por tramo desde SLP",
+      "Acceso por terracería",
       "~7 h de actividad",
       "~12 h totales",
       "Rappel",
       "Cascadas y pozas",
-      "Comida en La Salitrera"
+      "Comida en una fonda en La Salitrera"
     ],
     "lived": "Una jornada larga dentro del Cañón del Chivo que suma rappel al recorrido por cascadas y pozas.",
     "learned": [
@@ -407,13 +420,14 @@ window.ORIGEN_EXPERIENCES = {
       "Comida en La Salitrera",
       "Regreso"
     ],
-    "safety": "La ficha contempla rappel como actividad principal y una jornada de aproximadamente 12 horas. Los sistemas, equipo y requisitos específicos deberán publicarse con la salida.",
+    "safety": "La ficha establece nivel medio. El tiempo puede variar según el número de participantes y las condiciones del recorrido. El acceso es por terracería y se recomienda camioneta 4x2.",
     "closing": "EL RETO TAMBIÉN ESTÁ EN TODO LO QUE HACES ANTES DE LLEGAR AL RAPPEL.",
     "image": "../assets/images/experiencias/canon-chivo-rappel/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "gruta-puente": {
     "family": "EXPLORA",
@@ -422,40 +436,63 @@ window.ORIGEN_EXPERIENCES = {
     "title": "Gruta de La Puente",
     "message": "NO ENTRAS A VER UNA GRUTA. ENTRAS A RECORRERLA.",
     "profile": "MEDIO",
-    "location": "San Luis Potosí",
-    "duration": "1 día / opción 2 días",
+    "location": "San Nicolás Tolentino, San Luis Potosí",
+    "duration": "1 día / 2 días",
     "difficulty": "Medio",
     "activity": "Exploración subterránea",
     "details": [
-      "~6 h dentro",
+      "1 día: 6 h de exploración / ~12 h totales",
+      "2 días: 1 noche de campamento",
       "Grandes cámaras",
       "Agua y nado",
       "Oscuridad total",
       "Estalactitas y estalagmitas",
-      "Recorrido de entrada a salida diferente"
+      "Entrada y salida por puntos diferentes",
+      "Ascenso final de ~450 m"
     ],
-    "lived": "Una exploración subterránea de aproximadamente seis horas entre agua, grandes cámaras, oscuridad total y terreno natural. No se trata de entrar a mirar: se recorre el sistema.",
+    "lived": "Una exploración subterránea que combina caminata, nado y progresión por terreno natural durante aproximadamente 6 horas dentro de la gruta. El recorrido entra por un punto y sale por otro; la parte final incluye un ascenso de aproximadamente 450 metros con terreno natural y estructuras metálicas tipo escalera o vía ferrata.",
     "learned": [
-      "Moverte por terreno subterráneo y natural.",
-      "Gestionar una jornada prolongada dentro de una gruta.",
-      "Entender cómo cambia el recorrido cuando el agua y la oscuridad forman parte del entorno."
+      "Moverte durante varias horas por terreno húmedo e irregular.",
+      "Desenvolverte con agua, nado, oscuridad y formaciones naturales como parte del recorrido.",
+      "Adaptarte a un ambiente subterráneo activo, no a una visita turística convencional."
     ],
-    "challenge": "La duración dentro de la gruta es larga y el terreno combina caminata, agua y condiciones de oscuridad total.",
+    "challenge": "La experiencia requiere buena movilidad y capacidad para mantenerse activo durante aproximadamente 6 horas en terreno irregular, agua, nado y escaleras.",
     "itinerary": [
-      "Ingreso al sistema",
-      "Recorrido por cámaras y terreno natural",
+      "Ingreso por el punto de entrada",
+      "Recorrido por cámaras, terreno húmedo y formaciones",
       "Tramos con agua y nado",
-      "Exploración de formaciones",
-      "Salida por un punto diferente",
-      "Opción de campamento para formato de 2 días"
+      "Recorrido hasta el punto de salida diferente",
+      "Ascenso final de aproximadamente 450 m",
+      "En la modalidad de 2 días: campamento en el llano superior y actividades de noche y mañana"
     ],
-    "safety": "La ficha describe una exploración exigente de aproximadamente seis horas dentro de la gruta. Los requisitos, equipo y condiciones operativas deberán publicarse para cada salida.",
+    "safety": "Nivel físico medio. La ficha indica buena movilidad y capacidad para mantenerse activo durante unas 6 horas en ambiente subterráneo. La modalidad de 2 días añade campamento.",
     "closing": "ENTRAR ES SÓLO EL PRINCIPIO.",
     "image": "../assets/images/experiencias/gruta-puente/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "variants": [
+      {
+        "title": "01 · EXPLORACIÓN GRUTA DE LA PUENTE",
+        "summary": "1 día · 6 h de exploración · ~12 h totales · Nivel medio",
+        "details": [
+          "6 h de exploración",
+          "Nado y progresión subterránea",
+          "Entrada y salida por puntos diferentes"
+        ]
+      },
+      {
+        "title": "02 · LA PUENTE + CAMPAMENTO",
+        "summary": "2 días · 1 noche · Gruta + campamento · Nivel medio",
+        "details": [
+          "6 h de exploración subterránea",
+          "Campamento en el llano superior",
+          "Fogata, cocina outdoor, cena, café, amanecer y desayuno"
+        ]
+      }
+    ],
+    "sourceLocked": true
   },
   "tres-joyas": {
     "family": "EXPLORA",
@@ -496,7 +533,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "poza-pinturas": {
     "family": "EXPLORA",
@@ -538,7 +576,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "canon-ahogado": {
     "family": "EXPLORA",
@@ -580,7 +619,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "conca-arcos": {
     "family": "EXPLORA",
@@ -588,10 +628,10 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "CAMINA PARA LLEGAR DONDE NORMALMENTE NO LLEGARÍAS",
     "title": "Concá + Los Arcos",
     "message": "DOS DÍAS. DOS FORMAS DE VIVIR LA SIERRA.",
-    "profile": "MEDIO",
+    "profile": "BÁSICO–MEDIO",
     "location": "Concá, Sierra Gorda, Querétaro",
     "duration": "2 días / 1 noche",
-    "difficulty": "Variable según modalidad",
+    "difficulty": "Básico–medio",
     "activity": "Road trip + río + hike",
     "details": [
       "~3 h 30 min por tramo",
@@ -599,22 +639,21 @@ window.ORIGEN_EXPERIENCES = {
       "Río",
       "Nado",
       "Hotel",
-      "Misión",
+      "Misión de Concá",
       "Nacimiento",
-      "Historia"
+      "Árbol milenario"
     ],
-    "lived": "Dos días en la Sierra Gorda. El primer día puede tomar una ruta activa hacia Los Arcos o una experiencia más relajada de Río & Vino; el segundo día se centra en Concá.",
+    "lived": "Dos días en la Sierra Gorda con una primera jornada activa en Los Arcos de Ayutla y una segunda jornada dedicada a Concá. Esta página corresponde a la modalidad de Los Arcos; Río & Vino se presenta como una experiencia distinta.",
     "learned": [
-      "Combinar actividad, agua, descanso e historia en un mismo viaje.",
-      "Elegir el ritmo de la experiencia según lo que quieres vivir.",
-      "Conocer Concá desde sus espacios naturales e históricos."
+      "Combinar hiking, río, nado e historia en un mismo viaje.",
+      "Vivir una jornada activa y después conocer Concá desde sus espacios naturales e históricos."
     ],
-    "challenge": "La exigencia cambia según la variante del primer día. No toda la experiencia tiene la misma demanda física.",
+    "challenge": "La primera jornada es la modalidad activa del destino. La ficha la plantea como una experiencia de naturaleza, río y recorrido; Río & Vino no forma parte de esta experiencia.",
     "itinerary": [
-      "Día 1 · Traslado y modalidad Los Arcos o Río & Vino",
+      "Traslado hacia la Sierra Gorda",
+      "Recorrido de Los Arcos, río y nado",
       "Noche en hotel",
-      "Día 2 · Misión de Concá",
-      "Nacimiento y árbol milenario",
+      "Visita a la Misión de Concá, Nacimiento y árbol milenario",
       "Regreso"
     ],
     "safety": "La ficha contempla variantes con diferente nivel de actividad. La modalidad elegida y servicios incluidos deberán aparecer en la salida publicada.",
@@ -623,7 +662,12 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "options": [
+      "Los Arcos · modalidad activa",
+      "Río & Vino · experiencia independiente"
+    ],
+    "sourceLocked": true
   },
   "cerro-comadres-camp": {
     "family": "ATRÉVETE",
@@ -631,7 +675,7 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "NO TIENES QUE SER EL MÁS FUERTE. PERO SÍ TIENES QUE QUERER SEGUIR.",
     "title": "Cerro de las Comadres — Camp",
     "message": "LA PRIMERA NOCHE AFUERA CAMBIA LA FORMA DE VER EL DÍA.",
-    "profile": "MEDIO–ALTO",
+    "profile": "BÁSICO–MEDIO",
     "location": "Cerro de las Comadres",
     "duration": "2 días / 1 noche",
     "difficulty": "Básico–medio",
@@ -644,19 +688,20 @@ window.ORIGEN_EXPERIENCES = {
       "Naturaleza",
       "Espacio privado"
     ],
-    "lived": "Una primera experiencia de campamento para caminar, instalarte y pasar la noche afuera en el Cerro de las Comadres.",
+    "lived": "Una experiencia de 2 días y 1 noche para comenzar a vivir el campamento: después del hike y la comida de rancho, el grupo permanece en el espacio privado para montar tiendas, preparar alimentos, encender la fogata, tomar café, observar las estrellas, amanecer y desmontar.",
     "learned": [
-      "Montar y vivir una noche de campamento.",
-      "Cambiar el ritmo de la ciudad por uno más lento y exterior.",
-      "Descubrir qué necesitas para disfrutar una noche afuera."
+      "Montar una tienda y organizar un campamento.",
+      "Preparar alimentos y café al aire libre.",
+      "Aprender a vivir afuera y dejar limpio el lugar."
     ],
-    "challenge": "La ficha la plantea como una experiencia de campamento básica–media. El reto es dormir afuera y vivir el espacio de otra manera.",
+    "challenge": "Nivel básico–medio. La experiencia está pensada para quienes quieren comenzar a acercarse al campismo y aprender desde la práctica.",
     "itinerary": [
-      "Llegada y recorrido",
-      "Preparación del campamento",
-      "Tarde y convivencia",
-      "Fogata y noche bajo las estrellas",
-      "Desmontaje y regreso"
+      "Hike y regreso al espacio privado",
+      "Montaje de tiendas y organización del campamento",
+      "Asador, preparación de alimentos, fogata y convivencia",
+      "Noche en naturaleza y amanecer",
+      "Desayuno de rancho y desmontaje",
+      "Regreso"
     ],
     "safety": "La ficha contempla campamento en tienda y un espacio privado. Equipo y requisitos específicos se publicarán con cada salida.",
     "closing": "DORMIR AFUERA TAMBIÉN ES PARTE DEL CAMINO.",
@@ -664,7 +709,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "bosque-camp": {
     "family": "ATRÉVETE",
@@ -710,7 +756,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "cruce-chivo": {
     "family": "ATRÉVETE",
@@ -718,16 +765,18 @@ window.ORIGEN_EXPERIENCES = {
     "eyebrow": "NO TIENES QUE SER EL MÁS FUERTE. PERO SÍ TIENES QUE QUERER SEGUIR.",
     "title": "Cruce del Cañón del Chivo",
     "message": "NO SE TRATA DE LLEGAR RÁPIDO. SE TRATA DE SEGUIR.",
-    "profile": "MEDIO–ALTO / ALTO",
+    "profile": "ALTO",
     "location": "San Nicolás Tolentino, San Luis Potosí",
     "duration": "1 día",
-    "difficulty": "Medio–alto",
+    "difficulty": "Alto",
     "activity": "Travesía del cañón",
     "details": [
       "18 km",
-      "1 día",
-      "Entrada y salida por puntos diferentes",
-      "Recorrido integral del cañón"
+      "Cruce integral",
+      "1 día completo",
+      "Punto a punto",
+      "Buen nivel físico",
+      "Sin equipo de campamento"
     ],
     "lived": "Una travesía punto a punto de 18 km por el Cañón del Chivo. La entrada y la salida son por puntos diferentes.",
     "learned": [
@@ -735,20 +784,21 @@ window.ORIGEN_EXPERIENCES = {
       "Gestionar esfuerzo y atención en un recorrido largo.",
       "Entender cómo cambia una ruta cuando no regresas por el mismo camino."
     ],
-    "challenge": "Los 18 km convierten la distancia y la continuidad en el reto principal.",
+    "challenge": "La ficha la define como la experiencia físicamente más exigente del Cañón del Chivo. Son 18 km punto a punto y requiere buen nivel físico.",
     "itinerary": [
       "Entrada al Cañón del Chivo",
       "Travesía integral de aproximadamente 18 km",
       "Cruce del terreno y puntos de interés",
       "Salida por un punto diferente"
     ],
-    "safety": "La ficha define una travesía de 18 km y punto a punto. Requisitos, logística y condiciones finales se publicarán con cada salida.",
+    "safety": "La organización resuelve la logística de transporte entre punto de reunión, acceso, salida y regreso. La ficha indica que se lleva únicamente el equipo necesario para completar el recorrido de forma segura, sin equipo de campamento.",
     "closing": "EL CAMINO CAMBIA CUANDO NO PUEDES VOLVER POR DONDE VINISTE.",
     "image": "../assets/images/experiencias/cruce-chivo/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "travesia-sierra-san-miguelito": {
     "family": "ATRÉVETE",
@@ -792,7 +842,8 @@ window.ORIGEN_EXPERIENCES = {
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   },
   "huasteca-medida": {
     "family": "HUASTECA A LA MEDIDA",
@@ -835,18 +886,19 @@ window.ORIGEN_EXPERIENCES = {
       "ORIGEN arma rutas, horarios, traslados y coordinación",
       "Confirmar propuesta personalizada"
     ],
-    "safety": "ORIGEN coordina itinerario, rutas, actividades, horarios, transferencias, hospedaje, alimentos, accesos, guías u operadores locales, equipo y coordinación según el viaje.",
+    "safety": "ORIGEN coordina itinerario, rutas, actividades, horarios, traslados, hospedaje, alimentos, accesos, guías u operadores locales, equipo y coordinación según el viaje.",
     "closing": "LA HUASTECA NO TIENE QUE VIVIRSE DE UNA SOLA MANERA.",
     "options": [
-      "Naturaleza & Rest",
-      "Adventure",
-      "Adventure + Rock",
-      "Complete"
+      "Naturaleza & Descanso",
+      "Aventura",
+      "Aventura + Roca",
+      "Completa"
     ],
     "image": "../assets/images/experiencias/huasteca-medida/hero.jpg",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",
-    "video": ""
+    "video": "",
+    "sourceLocked": true
   }
 };
