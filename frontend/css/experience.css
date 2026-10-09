@@ -6,3 +6,9 @@ body.experience-page{background:#f2f1ec;color:#171a17}.experience-nav{position:f
 .variant-card h3{font-size:clamp(1.4rem,3vw,2.4rem);line-height:1;text-transform:uppercase;margin:0 0 18px}
 .variant-card p{line-height:1.55;margin:0 0 20px}
 @media(max-width:800px){.variant-list{grid-template-columns:1fr}.variant-card{padding:26px}}
+
+/* Experience photographs stay inside the layout's existing frames */
+.experience-media-placeholder,.gallery-main,.gallery-grid>div{position:relative;overflow:hidden}
+.experience-media-placeholder img,.gallery-main img,.gallery-grid img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.gallery-main,.gallery-grid>div{padding:0}
+.experience-gallery:has(.gallery-grid>div:only-child) .gallery-grid{grid-template-columns:1fr}

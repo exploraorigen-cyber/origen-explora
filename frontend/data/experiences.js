@@ -247,7 +247,7 @@ window.ORIGEN_EXPERIENCES = {
     ],
     "safety": "La ficha establece inducción, selección de rutas según nivel y un máximo de 4 participantes. Las rutas tienen distintas dificultades.",
     "closing": "TOCAR LA ROCA ES SÓLO EL PRINCIPIO.",
-    "image": "../assets/images/experiencias/escalada-peaje/hero.jpg",
+    "image": "../assets/images/experiencias/escalada-peaje/hero.png",
     "include": "Los elementos incluidos se publicarán con cada salida; no se inventan servicios comerciales en esta etapa.",
     "bring": "La lista definitiva de equipo y objetos personales se publicará con cada salida.",
     "dates": "Las próximas fechas, cupos y precio aparecerán cuando la salida sea publicada.",

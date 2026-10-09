@@ -42,7 +42,18 @@ function render(){
   }
 
   document.title=`ORIGEN | ${experience.title}`;
-  const image=experience.image || `../assets/images/experiencias/${slug}/hero.jpg`;
+  const image = `/assets/images/experiencias/${slug}/hero.png`;
+  const galleryFilesBySlug = {
+    'escalada-peaje': ['gallery-01.png', 'gallery-02.png'],
+    'travesia-cascadas': ['gallery-01.png', 'gallery-02.png', 'gallery-03.png'],
+    'canon-ahogado': ['gallery-01.png', 'gallery-02.png', 'gallery-03.png']
+  };
+  const galleryFiles = galleryFilesBySlug[slug] || [];
+  const galleryMarkup = galleryFiles.length ? `
+  <section class="experience-gallery">
+    <div class="gallery-main"><img src="/assets/images/experiencias/${esc(slug)}/${galleryFiles[0]}" alt="Galería de ${esc(experience.title)}"></div>
+    <div class="gallery-grid">${galleryFiles.slice(1).map((file,i)=>`<div><img src="/assets/images/experiencias/${esc(slug)}/${file}" alt="Imagen ${i+2} de ${esc(experience.title)}"></div>`).join('')}</div>
+  </section>` : '';
 
   const learning = experience.learned?.length ? `
     <section class="experience-learning">
@@ -91,7 +102,7 @@ function render(){
   </section>
 
   <section class="experience-split">
-    <div class="experience-media-placeholder"><span>IMAGEN DE LA EXPERIENCIA</span><small>${esc(image.replace('../',''))}</small></div>
+    <div class="experience-media-placeholder"><img src="${esc(image)}" alt="${esc(experience.title)}"></div>
     <div class="experience-copy"><p class="section-number">03 — ¿QUÉ VAS A VIVIR?</p><p class="experience-big">${esc(experience.lived)}</p></div>
   </section>
 
@@ -99,10 +110,8 @@ function render(){
   ${challenge}
   ${itinerary}
 
-  <section class="experience-gallery">
-    <div class="gallery-main"><span>GALERÍA PRINCIPAL</span><small>assets/images/experiencias/${esc(slug)}/gallery-01.jpg</small></div>
-    <div class="gallery-grid"><div><span>IMAGEN 02</span></div><div><span>IMAGEN 03</span></div><div><span>IMAGEN 04</span></div><div><span>IMAGEN 05</span></div></div>
-  </section>
+  ${galleryMarkup}
+
 
   <section class="experience-video">
     <p class="section-number">07 — EN EL CAMINO</p>
