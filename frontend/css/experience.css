@@ -12,3 +12,85 @@ body.experience-page{background:#f2f1ec;color:#171a17}.experience-nav{position:f
 .experience-media-placeholder img,.gallery-main img,.gallery-grid img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 .gallery-main,.gallery-grid>div{padding:0}
 .experience-gallery:has(.gallery-grid>div:only-child) .gallery-grid{grid-template-columns:1fr}
+
+/* Themed vector textures for experience content sections */
+body[data-vector-theme="climb"] { --experience-vector-color: #B56F4D; --experience-vector-image: url("../assets/vectors/escalada-relieve.svg"); }
+body[data-vector-theme="water"] { --experience-vector-color: #4F8989; --experience-vector-image: url("../assets/vectors/agua-flujos.svg"); }
+body[data-vector-theme="cave"] { --experience-vector-color: #9A7858; --experience-vector-image: url("../assets/vectors/gruta-estratos.svg"); }
+body[data-vector-theme="ridge"] { --experience-vector-color: #74805D; --experience-vector-image: url("../assets/vectors/sierra-contornos.svg"); }
+body[data-vector-theme="canyon"] { --experience-vector-color: #B66F4A; --experience-vector-image: url("../assets/vectors/canon-perfiles.svg"); }
+
+.experience-intro,
+.experience-facts,
+.experience-copy,
+.experience-learning,
+.experience-dark-block,
+.experience-itinerary,
+.experience-info,
+.experience-options,
+.experience-closing,
+.experience-cta {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.experience-intro::before,
+.experience-facts::before,
+.experience-copy::before,
+.experience-learning::before,
+.experience-dark-block::before,
+.experience-itinerary::before,
+.experience-info::before,
+.experience-options::before,
+.experience-closing::before,
+.experience-cta::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0 0 0 auto;
+  width: min(54%, 720px);
+  background-color: var(--experience-vector-color);
+  -webkit-mask: var(--experience-vector-image) no-repeat right center / contain;
+  mask: var(--experience-vector-image) no-repeat right center / contain;
+  opacity: .46;
+  pointer-events: none;
+}
+
+.experience-intro::before,
+.experience-learning::before,
+.experience-info::before {
+  inset: 0 auto 0 0;
+  -webkit-mask-position: left center;
+  mask-position: left center;
+}
+
+.experience-intro > *,
+.experience-facts > *,
+.experience-copy > *,
+.experience-learning > *,
+.experience-dark-block > *,
+.experience-itinerary > *,
+.experience-info > *,
+.experience-options > *,
+.experience-closing > *,
+.experience-cta > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .experience-intro::before,
+  .experience-facts::before,
+  .experience-copy::before,
+  .experience-learning::before,
+  .experience-dark-block::before,
+  .experience-itinerary::before,
+  .experience-info::before,
+  .experience-options::before,
+  .experience-closing::before,
+  .experience-cta::before {
+    width: 76%;
+    opacity: .34;
+  }
+}

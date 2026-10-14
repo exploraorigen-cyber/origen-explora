@@ -2,6 +2,28 @@ const root = document.querySelector('#experience-root');
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('experiencia');
 const experience = window.ORIGEN_EXPERIENCES?.[slug];
+const vectorThemeBySlug = {
+  'travesia-cascadas': 'water',
+  'san-cayetano': 'cave',
+  'cerro-comadres-rancho': 'ridge',
+  'cerro-comadres-cabana': 'ridge',
+  'conca-rio-vino': 'water',
+  'escalada-peaje': 'climb',
+  'boulder-sunset': 'climb',
+  'gruta-candelas': 'cave',
+  'canon-chivo-guacamayas': 'water',
+  'canon-chivo-rappel': 'canyon',
+  'gruta-puente': 'cave',
+  'tres-joyas': 'ridge',
+  'poza-pinturas': 'water',
+  'canon-ahogado': 'canyon',
+  'conca-arcos': 'water',
+  'cerro-comadres-camp': 'ridge',
+  'bosque-camp': 'ridge',
+  'cruce-chivo': 'canyon',
+  'travesia-sierra-san-miguelito': 'ridge',
+  'huasteca-medida': 'water'
+};
 
 const esc = (v='') => String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const arr = (a=[]) => a.map((x,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span><p>${esc(x)}</p></li>`).join('');
@@ -41,6 +63,8 @@ function render(){
     return;
   }
 
+  document.body.dataset.experienceSlug = slug;
+  document.body.dataset.vectorTheme = vectorThemeBySlug[slug] || 'ridge';
   document.title=`ORIGEN | ${experience.title}`;
   const image = `/assets/images/experiencias/${slug}/hero.png`;
   const galleryFilesBySlug = {

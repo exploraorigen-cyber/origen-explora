@@ -2464,3 +2464,19 @@ footer {
         font-size: clamp(2.4rem, 12vw, 3.5rem);
     }
 }
+
+/* INDEX — motivos vectoriales únicos por sección y familia */
+.awakening,.experiences-header,.family-card,.video-experiences-header,.stories-intro,.final-cta{position:relative;isolation:isolate;}
+.awakening::before,.experiences-header::before,.family-card::before,.video-experiences-header::before,.stories-intro::before,.final-cta::before{content:"";position:absolute;z-index:0;right:0;top:0;width:min(46%,620px);height:100%;background-color:var(--index-vector-color);-webkit-mask:var(--index-vector-image) no-repeat right center/contain;mask:var(--index-vector-image) no-repeat right center/contain;opacity:.34;pointer-events:none;}
+.awakening>* ,.experiences-header>* ,.family-card-content,.video-experiences-header>* ,.stories-intro>* ,.final-cta-content{position:relative;z-index:1;}
+.awakening{--index-vector-color:#8f9a6d;--index-vector-image:url("../assets/vectors/index/awakening.svg");}
+.experiences-header{--index-vector-color:#6e8174;--index-vector-image:url("../assets/vectors/index/experiences-route.svg");}
+.family-descubre{--index-vector-color:#4f8989;--index-vector-image:url("../assets/vectors/index/descubre-rio.svg");}
+.family-escala{--index-vector-color:#b56f4d;--index-vector-image:url("../assets/vectors/index/escala-pared.svg");}
+.family-explora{--index-vector-color:#a47450;--index-vector-image:url("../assets/vectors/index/explora-canon.svg");}
+.family-atrevete{--index-vector-color:#7d875e;--index-vector-image:url("../assets/vectors/index/atrevete-cumbre.svg");}
+.family-huasteca{--index-vector-color:#4f8989;--index-vector-image:url("../assets/vectors/index/huasteca-ondas.svg");}
+.video-experiences-header{--index-vector-color:#bd7950;--index-vector-image:url("../assets/vectors/index/video-play.svg");}
+.stories-intro{--index-vector-color:#b56f4d;--index-vector-image:url("../assets/vectors/index/stories-huellas.svg");}
+.final-cta{--index-vector-color:#52695f;--index-vector-image:url("../assets/vectors/index/horizon.svg");}
+@media(max-width:767px){.awakening::before,.experiences-header::before,.family-card::before,.video-experiences-header::before,.stories-intro::before,.final-cta::before{width:72%;opacity:.25;}}
