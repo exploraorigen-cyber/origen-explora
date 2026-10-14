@@ -25,3 +25,35 @@ Pendiente comercial para publicación:
 - servicios incluidos por salida
 - lista definitiva de equipo por salida
 - fotografías y videos reales
+
+GALERÍAS DE EXPERIENCIAS Y SALIDAS
+
+Cada experiencia admite una galería resumen de hasta seis fotografías. Las imágenes se detectan automáticamente por nombre; si falta un archivo, el espacio no se muestra:
+- assets/images/experiencias/<slug>/gallery-01.png — el lugar y el paisaje
+- assets/images/experiencias/<slug>/gallery-02.png — el inicio del recorrido
+- assets/images/experiencias/<slug>/gallery-03.png — la actividad en movimiento
+- assets/images/experiencias/<slug>/gallery-04.png — detalles del recorrido o equipo
+- assets/images/experiencias/<slug>/gallery-05.png — convivencia y participantes
+- assets/images/experiencias/<slug>/gallery-06.png — cierre o vista final
+
+La portada sigue usando hero.png. La galería resumen se limita a esas seis imágenes y puede tener menos hasta que se agregue material.
+
+Las fotos de una salida específica van separadas por fecha:
+- assets/images/experiencias/<slug>/salidas/AAAA-MM-DD/gallery-01.png
+- assets/images/experiencias/<slug>/salidas/AAAA-MM-DD/gallery-02.png
+- ...
+
+Para publicar una galería por fecha, agrega en el objeto de esa experiencia de data/experiences.js una propiedad departureGalleries con esta estructura (la fecha es un ejemplo de formato, no una salida publicada):
+
+"departureGalleries": [
+  {
+    "date": "AAAA-MM-DD",
+    "title": "Nombre opcional de la salida",
+    "photos": [
+      { "file": "gallery-01.png", "alt": "Descripción de la fotografía", "caption": "Texto opcional" },
+      { "file": "gallery-02.png", "alt": "Descripción de la fotografía" }
+    ]
+  }
+]
+
+La búsqueda dentro de cada experiencia abre solo las fotos asociadas a la fecha elegida. No se agregan fechas ficticias: la sección muestra un estado informativo hasta que se publiquen fechas reales y se carguen sus imágenes.
