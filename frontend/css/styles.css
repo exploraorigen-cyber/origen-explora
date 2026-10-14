@@ -2480,3 +2480,24 @@ footer {
 .stories-intro{--index-vector-color:#b56f4d;--index-vector-image:url("../assets/vectors/index/stories-huellas.svg");}
 .final-cta{--index-vector-color:#52695f;--index-vector-image:url("../assets/vectors/index/horizon.svg");}
 @media(max-width:767px){.awakening::before,.experiences-header::before,.family-card::before,.video-experiences-header::before,.stories-intro::before,.final-cta::before{width:72%;opacity:.25;}}
+
+/* Movimiento ambiental lento para el hero principal y sus contornos */
+.hero::before{z-index:0;background-size:135% 135%,100% 100%;animation:heroAmbientShift 12s ease-in-out infinite alternate;}
+.hero::after{content:"";position:absolute;z-index:1;top:-6%;right:-5%;width:min(78vw,1050px);height:112%;background-color:var(--color-accent);-webkit-mask:url("../assets/vectors/index/hero-topografia.svg") no-repeat center/contain;mask:url("../assets/vectors/index/hero-topografia.svg") no-repeat center/contain;opacity:.28;pointer-events:none;transform-origin:center;animation:heroContourDrift 15s ease-in-out infinite alternate;}
+.hero-content{position:relative;z-index:2;}
+.scroll-indicator,.hero-index{z-index:2;}
+@keyframes heroAmbientShift{from{background-position:64% 23%,center;}to{background-position:88% 40%,center;}}
+@keyframes heroContourDrift{from{transform:translate3d(0,0,0) scale(1);}to{transform:translate3d(-4%,2%,0) scale(1.06);opacity:.4;}}
+@keyframes indexVectorDrift{from{transform:translate3d(0,0,0) scale(1);opacity:.2;}to{transform:translate3d(-5%,2.5%,0) scale(1.07);opacity:.42;}}
+.awakening::before{animation:indexVectorDrift 12s ease-in-out infinite alternate;}
+.experiences-header::before{animation:indexVectorDrift 14s ease-in-out -9s infinite alternate;}
+.family-descubre::before{animation:indexVectorDrift 11s ease-in-out -6s infinite alternate;}
+.family-escala::before{animation:indexVectorDrift 15s ease-in-out -13s infinite alternate;}
+.family-explora::before{animation:indexVectorDrift 16s ease-in-out -4s infinite alternate;}
+.family-atrevete::before{animation:indexVectorDrift 13s ease-in-out -11s infinite alternate;}
+.family-huasteca::before{animation:indexVectorDrift 17s ease-in-out -16s infinite alternate;}
+.video-experiences-header::before{animation:indexVectorDrift 14s ease-in-out -8s infinite alternate;}
+.stories-intro::before{animation:indexVectorDrift 12s ease-in-out -14s infinite alternate;}
+.final-cta::before{animation:indexVectorDrift 15s ease-in-out -10s infinite alternate;}
+@media(max-width:767px){.hero::after{right:-18%;width:100vw;opacity:.16;}}
+@media(prefers-reduced-motion:reduce){.hero::before,.hero::after,.awakening::before,.experiences-header::before,.family-card::before,.video-experiences-header::before,.stories-intro::before,.final-cta::before{animation:none!important;}html{scroll-behavior:auto;}}

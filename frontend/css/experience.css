@@ -94,3 +94,47 @@ body[data-vector-theme="canyon"] { --experience-vector-color: #B66F4A; --experie
     opacity: .34;
   }
 }
+
+/* Gentle motion for experience-page vector backgrounds */
+@keyframes experienceVectorDrift{from{transform:translate3d(0,0,0) scale(1);}to{transform:translate3d(-4%,2%,0) scale(1.06);opacity:.54;}}
+.experience-intro::before,.experience-facts::before,.experience-copy::before,.experience-learning::before,.experience-dark-block::before,.experience-itinerary::before,.experience-info::before,.experience-options::before,.experience-closing::before,.experience-cta::before{animation:experienceVectorDrift 18s ease-in-out infinite alternate;}
+.experience-learning::before,.experience-info::before{animation-delay:-12s;}
+@media(prefers-reduced-motion:reduce){.experience-intro::before,.experience-facts::before,.experience-copy::before,.experience-learning::before,.experience-dark-block::before,.experience-itinerary::before,.experience-info::before,.experience-options::before,.experience-closing::before,.experience-cta::before{animation:none!important;}}
+
+/* Silueta/motivo animado por tipo de experiencia */
+body[data-vector-theme="climb"]{--experience-figure-image:url("../assets/vectors/figures/escalada-v3.svg");}
+body[data-vector-theme="water"]{--experience-figure-image:url("../assets/vectors/figures/cascada.svg");}
+body[data-vector-theme="cave"]{--experience-figure-image:url("../assets/vectors/figures/gruta.svg");}
+body[data-vector-theme="ridge"]{--experience-figure-image:url("../assets/vectors/figures/senderismo.svg");}
+body[data-vector-theme="canyon"]{--experience-figure-image:url("../assets/vectors/figures/rappel.svg");}
+.experience-hero::before{content:"";position:absolute;z-index:1;right:clamp(1rem,7vw,7rem);bottom:0;width:min(42%,600px);height:88%;background-color:#f1f0eb;-webkit-mask:var(--experience-figure-image) no-repeat center bottom/contain;mask:var(--experience-figure-image) no-repeat center bottom/contain;opacity:.42;transform-origin:bottom center;pointer-events:none;animation:experienceFigureMotion 7s ease-in-out infinite;}
+.experience-hero::after{z-index:0;}
+.experience-hero-content,.experience-scroll{z-index:2;}
+@keyframes experienceFigureMotion{0%,100%{transform:translate3d(0,0,0) rotate(-.25deg);opacity:.3;}50%{transform:translate3d(0,-8px,0) rotate(.35deg);opacity:.5;}}
+@media(max-width:800px){.experience-hero::before{right:-5%;width:58%;height:68%;opacity:.34;}}
+@media(prefers-reduced-motion:reduce){.experience-hero::before{animation:none!important;}}
+
+/* Movimiento distinto según la actividad representada */
+@keyframes climberMove{0%,100%{transform:translate3d(0,3px,0) rotate(-.4deg);opacity:.34;}50%{transform:translate3d(-3px,-12px,0) rotate(.45deg);opacity:.5;}}
+@keyframes waterfallFlow{0%,100%{transform:translate3d(0,-7px,0);opacity:.32;}50%{transform:translate3d(0,9px,0);opacity:.5;}}
+@keyframes caverGlow{0%,100%{transform:scale(.99);opacity:.32;}50%{transform:scale(1.025);opacity:.52;}}
+@keyframes hikerStep{0%,100%{transform:translate3d(4px,3px,0) rotate(-.3deg);opacity:.34;}50%{transform:translate3d(-5px,-6px,0) rotate(.3deg);opacity:.48;}}
+@keyframes rappellerDescent{0%,100%{transform:translate3d(0,-5px,0);opacity:.34;}50%{transform:translate3d(0,9px,0);opacity:.5;}}
+body[data-vector-theme="climb"] .experience-hero::before{right:-2%;width:min(86%,1120px);height:100%;background-color:transparent;background-image:url("../assets/vectors/figures/escalada-reflejada.png");background-repeat:no-repeat;background-position:right bottom;background-size:contain;-webkit-mask:none;mask:none;opacity:.92;animation:climberLineMotion 7s ease-in-out infinite alternate;}
+body[data-vector-theme="water"] .experience-hero::before{animation:waterfallFlow 4.5s ease-in-out infinite;}
+body[data-vector-theme="cave"] .experience-hero::before{animation:caverGlow 8s ease-in-out infinite;}
+body[data-vector-theme="ridge"] .experience-hero::before{animation:hikerStep 7s ease-in-out infinite;}
+body[data-vector-theme="canyon"] .experience-hero::before{animation:rappellerDescent 6.5s ease-in-out infinite;}
+@media(prefers-reduced-motion:reduce){body[data-vector-theme] .experience-hero::before{animation:none!important;}}
+
+
+/* Información: tarjetas sin relleno para que los vectores animados se vean detrás */
+.experience-info .info-grid{background:transparent;gap:12px;}
+.experience-info .info-grid article{background:transparent;border:1px solid rgba(23,26,23,.22);}
+
+/* Versión de escalada inspirada en ilustración lineal geométrica */
+
+@keyframes climberLineMotion{from{transform:translate3d(0,0,0);opacity:.88;}to{transform:translate3d(-.6%,-.8%,0);opacity:1;}}
+@media(max-width:800px){body[data-vector-theme="climb"] .experience-hero::before{right:-12%;width:120%;height:94%;background-position:left bottom;background-size:auto 112%;opacity:.9;}}
+
+/* Adjustment de la ilustracion lineal de escalada */
